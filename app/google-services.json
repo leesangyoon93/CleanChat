@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "749915107952",
+    "firebase_url": "https://foxtail-13cd6.firebaseio.com",
+    "project_id": "foxtail-13cd6",
+    "storage_bucket": "foxtail-13cd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749915107952:android:b6932efe35b57dcf",
+        "android_client_info": {
+          "package_name": "com.sangyoon.cleanchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749915107952-7on0ng1m292hqcfn8t5h1bhd7e7ctpdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzmsYy5NocQCGEM-GePZ0housmO7QOhF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
