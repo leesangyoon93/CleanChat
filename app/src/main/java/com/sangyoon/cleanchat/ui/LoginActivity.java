@@ -61,6 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                 String password = passwordEdit.getText().toString();
 
                 FirebaseAuth auth = FirebaseAuth.getInstance();
+
                 Task<AuthResult> authResultTask = auth.signInWithEmailAndPassword(email, password);
                 authResultTask.addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
@@ -81,7 +82,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         hideProgressBar();
-
                         Snackbar.make(layout, e.getLocalizedMessage(), Snackbar.LENGTH_SHORT).show();
                         // Toast 보다는 Snackbar 를 사용하는 추세!
                     }

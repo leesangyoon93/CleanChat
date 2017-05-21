@@ -31,7 +31,10 @@ class Chat {
     public static Chat newChat(String message) {
         return new Chat(message, timestamp());
     }
-    // 생성자 보다는 Static Factory Method 를 사용해 객체를 생성
+
+    public static Chat newChatWithImage(String message, String imageURL) {
+        return new Chat(message, timestamp(), imageURL);
+    }
 
     private static String timestamp() {
         Date date = new Date();
